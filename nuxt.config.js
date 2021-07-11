@@ -1,3 +1,5 @@
+import getRoutes from "./utils/getRoutes";
+
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -34,6 +36,7 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    "@nuxtjs/sitemap",
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
@@ -53,7 +56,7 @@ export default {
 
   // Sitemap
   sitemap: {
-    hostname: '<domain>',
+    hostname: 'https://your-domain.com',
     routes() {
       return getRoutes();
     },

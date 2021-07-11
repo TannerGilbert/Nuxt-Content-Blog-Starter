@@ -9,14 +9,14 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxt/content": "^1.9.0",
-    "@nuxtjs/pwa": "^3.0.2",
+    "@nuxt/content": "^1.14.0",
+    "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/sitemap": "^2.4.0",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6",
-    "rehype-mathjax": "^3.0.0",
-    "remark-math": "^3.0.1",
-    "uikit": "^3.5.8"
+    "nuxt": "^2.15.7",
+    "rehype-mathjax": "^3.1.0",
+    "remark-math": "^4.0.0",
+    "uikit": "^3.7.0"
   },
   "devDependencies": {
     "eslint-config-prettier": "^6.12.0",
